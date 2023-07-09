@@ -1,0 +1,50 @@
+.gradient-background {
+    background: url(./asset/Awesome\ Indie\ Art\ Wallpapers\ -\ WallpaperAccess.jpg);
+    background-size: 100% 170%;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+.font-style {
+    font: italic 4em "Fira Sans", serif;
+}  
+
+.profile-img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.certication-heading {
+    font: 4em sans-serif;
+
+}
+
+.footer-background{
+	background: linear-gradient(-45deg, #FFDBC5,#8E072F,#FD573F,#990829,#FF6C40);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+  height: 30vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
